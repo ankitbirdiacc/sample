@@ -1,3 +1,4 @@
+<script src="https://unpkg.com/xhr2@0.1.0/lib/xhr2.js"></script>
 const XMLHttpRequest = require('xhr2');
 const fs = require('fs');
 
