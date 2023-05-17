@@ -19,7 +19,7 @@ xhr.onload = function() {
         console.log('No response body');
       } else if (xhr.status === 200) {
         const data = xhr.responseText;
-        fs.writeFileSync('output.json', data);
+        fs.writeFileSync('https://ankitbirdiacc.github.io/sample/output.json', data);
         console.log("Data saved to json file");
       } else {
         console.log('Error: ' + xhr.status);
